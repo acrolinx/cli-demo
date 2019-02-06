@@ -328,25 +328,51 @@ Note: If you're using GitHub, you might want to use the Acrolinx GitHub integrat
 
 ## CLI Features
 
-* Get an access token using [interactive sign-in](#signin)
-* [Check](#check) local files.
-* [Check](#check) websites.
-* Match ANT-Path style file patterns `**` for multiple directories, `*` as wild card.
+### Access
+
+* Getting an access token using [interactive sign-in](#signin).
+* Using an [API token](#getting-an-api-token).
+* Proxy support
+
+### Checking
+
+* [Checking](#check) of local files.
+* [Website checking](#check)
+* ANT-Path-style file patterns:
+    + `**` for multiple directories,
+    + `*` as wild card.
 * Check all file types that are [supported by the Acrolinx Platform](#capabilities).
+* Filter all files that aren't natively supported by the platform.
+* Specify a Guidance Profile.
+
+### Performance
+
+* Execute checks concurrently
+  (*Note:* limited by number of [Acrolinx Language Servers](https://docs.acrolinx.com/coreplatform/latest/en/acrolinx-on-premise-only/get-started-with-the-core-platform/overview-of-the-acrolinx-servers)).
+
+### Automation
+
+* All options can be set as:
+    + Environment variables,
+    + Config file, and
+    + Command-line parameter.
+* Silent/JSON output for further processing
+* Submit files with a different document reference
+* Set a dedicated batch ID, to join multiple runs to one Content Analysis dashboard.
+* Specify the type of a check.
+* Authenticated links for interactive usage, unauthenticated links for storing in databases.
+
+### User Experience
+
+* Open URLs automatically in the default browser.
+* Overwriting of options (environment variable, config file, command-line parameter).
+
+### Results Processing
+
+* Showing results in a Content Analysis dashboard.
 * Create a JSON-based result file.
 * Create a XUnit style result file for processing in build environments.
 * Create a compiler style output for embedding into IDEs, that don't have a native Acrolinx Integration.
-* Execute checks concurrently
-  (*Note:* limited by running [Acrolinx Language Servers](https://docs.acrolinx.com/coreplatform/latest/en/acrolinx-on-premise-only/get-started-with-the-core-platform/overview-of-the-acrolinx-servers)).
-* Use Proxies.
-* Open URLs automatically in the default browser.
-* Submit file content with a different document reference.
-* Specify a Guidance Profile.
-* Silent/JSON output for further processing.
-* Storing and loading of setting.
-* Environment variable support.
-* Set a dedicated batch ID to join multiple runs to one Content Analysis dashboard.
-* Filter all files that aren't natively supported by the platform.
 
 ## References
 
