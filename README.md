@@ -247,6 +247,10 @@ scorecard
 
 ### `check`
 
+*See:* `acrolinx-cli check -h` for more options.
+
+#### Files
+
 ```bash
 acrolinx-cli check --files="*.md"
 ```
@@ -259,7 +263,11 @@ Find the Content Analysis Dashboard here:
 https://company.acrolinx.cloud/api/batch/gen.cli.12fd8ea0-2a2e-11e9-af6c-718c6a9a59b0
 ```
 
-*See:* `acrolinx-cli check -h` for more options.
+#### Websites
+
+```bash
+acrolinx-cli check --urls="https://www.acrolinx.com" --max-depth=2
+```
 
 ### `signin`
 
