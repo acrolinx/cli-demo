@@ -1,0 +1,16 @@
+{
+    "locale": "en",
+    "files": [
+        "*.md",
+        "samples/**/*.txt"
+    ],
+    "guidance-profile": "b8ac6a9f-cadc-44f1-b41c-e60155173096",
+    "content-format": "AUTO",
+    "check-type": "batch",
+    "max-concurrent": 3,
+    "result-json": "results/result.json",
+    "result-junit": "results/xunit.xml",
+    "report-type": [
+        "scorecard"
+    ]
+}
