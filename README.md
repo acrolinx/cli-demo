@@ -17,12 +17,14 @@ The Acrolinx Command Line Interface is designed to:
 
 ## Prerequisites
 
+Acrolinx Platform version 2018.12 or newer.
+
 Please contact [Acrolinx SDK support](https://github.com/acrolinx/acrolinx-coding-guidance/blob/master/topics/sdk-support.md)
 for consulting and getting your integration certified.
   
 Acrolinx offers different other SDKs, and examples for developing integrations.
 
-Before you start developing your own integration, you might benefit from looking into:
+Before you integrate the CLI in your process or infrastructure, you might benefit from looking into:
 
 * [Getting Started with Custom Integrations](https://support.acrolinx.com/hc/en-us/articles/205687652-Getting-Started-with-Custom-Integrations),
 * the [Guidance for the Development of Acrolinx Integrations](https://github.com/acrolinx/acrolinx-coding-guidance),
