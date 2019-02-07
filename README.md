@@ -293,10 +293,10 @@ The better approach is to configure a [profile assignment in the Acrolinx Dashbo
 
 ### Integrate Into a Build System
 
-* Jenkins (Will be documented soon)
+* [Jenkins](usecases/jenkins.md)
+* [NPM](usecases/npm.md)
 * Maven (Will be documented soon)
 * Gradle (Will be documented soon)
-* [NPM](usecases/npm.md)
 * Other Systems (Will be documented soon)
 
 ### Integrate Into a Version Control System

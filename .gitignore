@@ -37,3 +37,4 @@ xunit.xml
 result.json
 results
 .env
+package-lock.json
