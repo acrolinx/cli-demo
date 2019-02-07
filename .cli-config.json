@@ -5,7 +5,6 @@
         "usecases/*.md",
         "doc/*.md"
     ],
-    "guidance-profile": "b8ac6a9f-cadc-44f1-b41c-e60155173096",
     "content-format": "AUTO",
     "check-type": "batch",
     "max-concurrent": 3,
