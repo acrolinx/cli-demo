@@ -1,0 +1,14 @@
+{
+  "name": "cli-demo",
+  "description": "Acrolinx Command Line Interface Demo",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "acrolinx-check": "acrolinx-cli -c .cli-config.json check",
+    "preacrolinx": "npm run acrolinx-check",
+    "acrolinx": "node scripts/test-result.js",
+    "prebuild": "npm run acrolinx",
+    "build": "echo compile something..."
+  }
+}

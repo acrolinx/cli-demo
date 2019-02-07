@@ -1,4 +1,4 @@
-# (Beta) Acrolinx Command Line Interface
+# (Beta) Acrolinx Command Line Interface (CLI)
 
 This is a showcase for integrating the Command Line Interface into different systems.
 
@@ -318,23 +318,30 @@ Once you granted access, the build computer will resume the job.
 
 For production, use an [API token](#getting-an-api-token).
 
+## Guidance Profile Selection
+
+You can tell the CLI to use a Guidance Profile by specifying the parameter `--guidance-profile`.
+Supported values for your user can be figured out by calling the [`capabilities` command](#capabilities).
+
+In general, it's a good idea to not specify the Guidance Profile when calling the CLI.
+The better approach is to configure a [profile assignment in the Acrolinx Dashboard](https://docs.acrolinx.com/coreplatform/latest/en/guidance/checking-profiles/create-and-configure-checking-profiles/checking-profile-assignments).
+
 ## Use Cases
 
 ### Integrate Into a Build System
 
-#### Jenkins
-
-#### Maven
-
-#### Gradle
-
-#### NPM
+* Jenkins (Will be documented soon)
+* Maven (Will be documented soon)
+* Gradle (Will be documented soon)
+* [NPM](usecases/npm.md)
+* Other Systems (Will be documented soon)
 
 ### Integrate Into a Version Control System
 
 Note: If you're using GitHub, you might want to use the Acrolinx GitHub integration.
 
-#### Git Pre-Commit Hook
+* Git Pre-Commit Hook (Will be documented soon)
+* Other Systems (Will be documented soon)
 
 ## CLI Features
 

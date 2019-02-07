@@ -2,7 +2,10 @@
     "locale": "en",
     "files": [
         "*.md",
-        "samples/**/*.txt"
+        "samples/**/*"
+    ],
+    "urls": [
+        "https://www.acrolinx.com"
     ],
     "guidance-profile": "b8ac6a9f-cadc-44f1-b41c-e60155173096",
     "content-format": "AUTO",
