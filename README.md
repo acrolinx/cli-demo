@@ -1,4 +1,4 @@
-# Acrolinx Command Line Interface
+# (Beta) Acrolinx Command Line Interface
 
 This is a showcase for integrating the Command Line Interface into different systems.
 
