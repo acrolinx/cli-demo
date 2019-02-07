@@ -58,44 +58,7 @@ All command-line arguments can be set as prefixed environment variables. The pre
 
 *Note:* since the parameter `--acrolinx-url` already includes `acrolinx`, it will double: `ACROLINX_ACROLINX_URL`
 
-### Windows
-
-```batch
-set VARIABLE=value
-```
-
-Alternatively, you can also specify the environment variable user or system wide:
-
-* Goto `Control Panel\All Control Panel Items\System`:
-  
-  ![Control Panel / System](doc/advanced_system_settings.png)
-* Open `Advanced system settings`:
-  
-  ![Environment Variables](doc/env.png)
-* Click `New...` in either user or system variables, and enter the values:
-  
-  ![Environment Variables](doc/new_env.png)
-* You have to restart the command window to make the changes effective.
-
-#### Example
-
-```batch
-set ACROLINX_ACCESS_TOKEN=JOIJAWEOP.ASDARDWERWERDF.SFDFSDF
-set ACROLINX_ACROLINX_URL=http://company.acrolinx.cloud
-```
-
-### Linux and macOS
-
-```bash
-VARIABLE=value
-```
-
-#### Example
-
-```batch
-ACROLINX_ACCESS_TOKEN=JOIJAWEOP.ASDARDWERWERDF.SFDFSDF
-ACROLINX_ACROLINX_URL=https://company.acrolinx.cloud
-```
+See: [Configure Environment Variables](doc/env.md)
 
 ## Getting an API Token
 
