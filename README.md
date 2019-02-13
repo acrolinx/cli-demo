@@ -358,6 +358,8 @@ Note: If you're using GitHub, you might want to use the Acrolinx GitHub integrat
 
 * The CLI is based on the [Acrolinx Platform API](https://github.com/acrolinx/platform-api).
   Some of the API responses are directly returned by the CLI.
+* The [supported input types documentation](https://docs.acrolinx.com/coreplatform/latest/en/advanced/supported-input-types)
+  of the Core Platform.
 
 ## License
 
