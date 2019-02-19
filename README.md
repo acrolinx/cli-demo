@@ -2,7 +2,7 @@
 
 This is a showcase for integrating the Command Line Interface into different systems.
 
-See: [Getting Started with Custom Integrations](https://support.acrolinx.com/hc/en-us/articles/205687652-Getting-Started-with-Custom-Integrations)
+See: [Getting Started with Custom Integrations](https://docs.acrolinx.com/customintegrations)
 
 ## The Acrolinx Command Line Interface
 
